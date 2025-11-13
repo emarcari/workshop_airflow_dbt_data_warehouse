@@ -1,0 +1,31 @@
+[0m05:35:51.712179 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7bb11ee7ed50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7bb11f717740>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7bb121495640>]}
+
+
+============================== 05:35:51.755414 | c0cf37e4-4830-40df-a998-b249cd7296e9 ==============================
+[0m05:35:51.755414 [info ] [MainThread]: Running with dbt=1.10.15
+[0m05:35:51.755926 [debug] [MainThread]: running dbt with arguments {'write_json': 'True', 'debug': 'False', 'version_check': 'True', 'invocation_command': 'dbt init', 'introspect': 'True', 'empty': 'None', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'target_path': 'None', 'use_colors': 'True', 'quiet': 'False', 'send_anonymous_usage_stats': 'True', 'profiles_dir': '/home/etore/.dbt', 'no_print': 'None', 'fail_fast': 'False', 'log_format': 'default', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'log_path': 'logs', 'use_experimental_parser': 'False', 'cache_selected_only': 'False', 'printer_width': '80', 'static_parser': 'True', 'partial_parse': 'True', 'warn_error': 'None'}
+[0m05:35:51.853534 [info ] [MainThread]: Creating dbt configuration folder at /home/etore/.dbt
+[0m05:35:57.449379 [debug] [MainThread]: Starter project path: /home/etore/repos/before_20251107/jornada_de_dados/workshop_airflow_dbt/1_local_setup/.venv/lib/python3.12/site-packages/dbt/include/starter_project
+[0m05:35:57.464356 [info ] [MainThread]: 
+Your new dbt project "jornada_dw" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m05:35:57.464743 [info ] [MainThread]: Setting up your profile.
+[0m05:38:13.033320 [info ] [MainThread]: Profile jornada_dw written to /home/etore/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m05:38:13.038693 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 141.37895, "process_in_blocks": "232", "process_kernel_time": 0.342586, "process_mem_max_rss": "123084", "process_out_blocks": "34096", "process_user_time": 2.817825}
+[0m05:38:13.039171 [debug] [MainThread]: Command `dbt init` succeeded at 05:38:13.039086 after 141.38 seconds
+[0m05:38:13.039512 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7bb11fab62d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7bb11ed0dbb0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7bb11ed0dbe0>]}
+[0m05:38:13.039879 [debug] [MainThread]: Flushing usage events
+[0m05:38:14.119346 [debug] [MainThread]: An error was encountered while trying to flush usage events
